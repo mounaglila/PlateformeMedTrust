@@ -1,0 +1,14 @@
+$(document).ready(function() {
+	
+	$('#filterEvents #categorie').bind('change', function() {
+		$('#filterEvents').submit();
+	});
+	
+	$('#filterEvents #type').bind('change', function() {
+		$('#filterEvents').submit();
+	});
+	
+	$('#filterEvents #periode').bind('change', function() {
+		$('#filterEvents').submit();
+	});
+});

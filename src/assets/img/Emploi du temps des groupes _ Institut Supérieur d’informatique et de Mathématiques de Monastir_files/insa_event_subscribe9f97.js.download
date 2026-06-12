@@ -1,0 +1,33 @@
+$(document).ready(function() {
+	
+	$("#preinscription_event").validationEngine();
+	if ($('#preinscription_event #submit').length >  0) { 
+		$('#preinscription_event #submit').bind('click', function(){
+		
+			if ($("#preinscription_event").validationEngine('validate') == true) {
+				var formData = $("#preinscription_event").serializeArray();
+				$.ajax({
+					type:'post',
+					data: formData,
+					url : Drupal.settings.basePath  + 'event_subscribe/ajax/' + $('#nevent').val() + '/',
+					success: function(data){
+						$('.preinscription .message').remove();
+						var result = JSON.parse(data);
+
+						if (result.success == true || result.success == "true") {
+							$(".preinscription").append('<p class="message">'+ result.message +'</p>');
+							$("form#preinscription_event").remove();
+						} else {
+							$(".preinscription").append('<p class="message">'+ result.message +'</p>');
+							
+						}
+					}, error: function(error){
+						
+					}
+				});
+			}
+			return false;
+	
+		});
+	}
+});

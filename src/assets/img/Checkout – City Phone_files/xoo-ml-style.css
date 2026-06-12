@@ -1,0 +1,603 @@
+.xoo-ml-verified-success, .xoo-ml-verify-notice {
+    z-index: 99999999;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    left: 0;
+    right: 0;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+
+.xoo-ml-verified-success span:last-of-type a {
+    text-decoration: underline;
+    color: #3c763d;
+    margin-left: 6px;
+}
+
+.xoo-ml-notice-error{
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.xoo-ml-notice-success{
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.xoo-ml-notice{
+    display: none;
+    margin: 5px 0;
+}
+
+
+.xoo-ml-notice-error , .xoo-ml-notice-success{
+    padding: 7px 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: block;
+    margin: 10px 0;
+}
+
+.xoo-aff-group.xoo-ml-reg-phone-cc_cont {
+    align-self: stretch;
+}
+
+
+
+/* OTP */
+button.button.btn.xoo-ml-otp-submit-btn {
+    width: 100%;
+    max-width: 400px;
+    margin: 40px auto 0;
+    display: table;
+}
+
+.xoo-ml-otp-form .xoo-ml-otp-submit-btn{
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px
+}
+
+.xoo-ml-otp-input-cont {
+    display: table;
+    margin: 0 auto;
+}
+
+form.xoo-ml-otp-form {
+    text-align: center;
+    display: none;
+    margin: 20px 0;
+}
+
+
+
+.xoo-ml-otp-sent-txt {
+    margin-bottom: 22px;
+    font-size: 20px;
+}
+
+span.xoo-ml-otp-no-change {
+    color: #0d81fe;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+form.xoo-ml-otp-form input.xoo-ml-otp-input:focus {
+    outline: 0;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #0d81fe;
+}
+
+form.xoo-ml-otp-form input.xoo-ml-otp-input {
+    max-width: 60px;
+    text-align: center;
+    margin-right: 15px;
+    background-color: transparent;
+    color: #000;
+    font-weight: 600;
+    font-size: 23px;
+    border-bottom: 1px solid #000;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    box-shadow: 0 0 0;
+    display: inline-block;
+    padding: 10px 5px;
+}
+
+.xoo-ml-otp-notice-cont {
+    height: 50px;
+}
+
+form.xoo-ml-otp-form .xoo-ml-notice {
+    display: table;
+    margin: 0 auto;
+}
+
+span.xoo-ml-reg-phone-change, span.xoo-ml-inline-verify, span.xoo-ml-otp-submit-btn {
+    position: absolute;
+    width: auto;
+    height: auto;
+    line-height: inherit;
+    z-index: 10;
+    cursor: pointer;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: #528ff0;
+    font-weight: bold;
+    right: 20px;
+    top: 25%;
+}
+
+span.xoo-ml-reg-phone-change, span.xoo-ml-otp-submit-btn{
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+span.xoo-ml-reg-phone-change{
+    display: none;
+}
+
+.xoo-ml-inline-verify{
+    display: inline-block;
+}
+
+a.xoo-ml-otp-resend-link {
+    color: #0d81fe;
+    text-decoration: none!important;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.xoo-ml-otp-resend {
+    margin-top: 10px;
+}
+
+a.xoo-ml-otp-resend-link.xoo-ml-disabled {
+    pointer-events: none!important;
+}
+
+.xoo-ml-has-cc {
+    display: flex;
+}
+
+.xoo-ml-has-cc select.xoo-ml-phone-cc, .xoo-ml-has-cc input.xoo-ml-phone-cc {
+    max-width: 100px;
+    margin-right: 10px;
+    align-self: flex-start;
+}
+
+.xoo-ml-regphin {
+    position: relative;
+    width: 100%;
+}
+
+.xoo-ml-regphin input.xoo-ml-phone-input{
+    width: 100%;
+}
+
+input#xoo-ml-reg-phone {
+    width: 100%;
+}
+
+span.xoo-ml-low-back {
+    color: #4a90e2;
+    text-decoration: underline;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+
+button.button.btn.xoo-ml-login-otp-btn {
+    margin-top: 13px;
+}
+.xoo-ml-processing{
+    pointer-events: none;
+    opacity: 0.7
+}
+.xoo-el-container .xoo-ml-notice{
+    width: calc(100% - 20px);
+}
+
+span.xoo-ml-or {
+    display: none;
+    margin: 20px 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #333;
+    font-size: 14px;
+}
+
+
+.xoo-el-form-container .xoo-lwo-form{
+    padding-top: 15px;
+}
+
+.xoo-el-fields .xoo-ml-notice-error, .xoo-el-fields .xoo-ml-notice-success {
+    margin: 0;
+}
+
+
+button.button.btn.xoo-ml-low-back {
+    margin-top: 15px;
+}
+
+.xoo-el-form-container button.button.btn.xoo-ml-login-otp-btn {
+    margin: 15px 0;
+}
+
+.xoo-el-form-container .xoo-ml-notice{
+    width: calc(100% - 20px);
+}
+
+input.xoo-ml-inline-otp {
+    min-width: 100px;
+}
+.xoo-ml-inline-otp-cont{
+    margin-top: 15px;
+    display: none;
+    width: 100%;
+}
+
+span.xoo-ml-inline-verify.verified {
+    color: #4CAF50;
+    pointer-events: none;
+}
+
+span.xoo-ml-inline-verify.verified .dashicons {
+    vertical-align: middle;
+}
+
+.xoo-ml-inline-otp-cont .xoo-ml-otp-resend {
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+.xoo-ml-inline-otp-cont .xoo-ml-notice {
+    width: 100%;
+    margin-top: 13px;
+}
+
+.xoo-ml-ioc-input {
+    position: relative;
+}
+
+.xoo-ml-ioc-input input.xoo-ml-otp-input {
+    width: 100%;
+    min-height: 40px;
+    min-width: 100%;
+}
+
+input[type=tel].xoo-ml-otp-input::-webkit-inner-spin-button,
+input[type=tel].xoo-ml-otp-input::-webkit-outer-spin-button {
+-webkit-appearance: textfield!important;
+display: none!important
+}
+
+
+form.xoo-lwo-form .xoo-ml-inline-verify {
+    display: none!important;
+}
+
+form.xoo-lwo-form {
+    margin-bottom: 20px;
+}
+
+.xoo-ml-inline-otp-cont .xoo-ml-otp-no-txt br {
+    display: none;
+}
+
+select.xoo-ml-phone-cc + .select2.select2-container {
+    min-width: 120px;
+    margin-right: 15px;
+}
+
+.xoo-ml-phone-cc + .select2 span.select2-selection__arrow {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.xoo-ml-phone-cc + .select2.select2-container .select2-selection__rendered, .xoo-ml-phone-cc + .select2 .selection, .xoo-ml-phone-cc + .select2 .select2-selection{
+    height: inherit;
+    line-height: inherit;
+    border-radius: 0;
+    padding: 0;
+}
+
+.xoo-ml-phone-cc + .select2 .select2-selection.select2-selection--single{
+    padding: 0 15px;
+}
+
+
+.xoo-ml-phone-cc + .select2-container *:focus {
+    outline: none;
+}
+
+
+.xoo-ml-inline-otp-cont span.xoo-ml-otp-no-txt {
+    color: green;
+    font-size: 13px;
+    display: block;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.xoo-ml-notice-error .xoo-el-login-tgr {
+    text-decoration: underline;
+    margin-left: 4px;
+}
+
+.xoo-el-form-container select.xoo-ml-phone-cc + .select2.select2-container {
+    margin-right: inherit;
+}
+
+
+.theme-oceanwp form.woocommerce-form.woocommerce-form-register.register {
+    display: block!important;
+}
+
+form.xoo-ml-email-form {
+    display: none;
+    margin-top: 20px;
+}
+
+.xoo-ml-flag-cont {
+    display: flex;
+    align-items: center;
+}
+
+.xoo-ml-flag-cont span:nth-child(1) {
+    margin-right: 6px;
+}
+
+.xoo-ml-flag-cont span:nth-child(2) {
+    font-size: 12px;
+}
+
+/* single pattern */
+.xoo-el-form-container .xoo-el-form-single .xoo-ml-phinput-cont, .xoo-el-form-single .xoo-ml-eminput-cont {
+    display: none;
+}
+
+.xoo-el-form-container button.button.btn.xoo-el-single-otp-btn {
+    display: none;
+}
+
+span.xoo-el-edit-em + .xoo-ml-reg-phone-change {
+    display: none;
+}
+
+.xoo-el-block-edit:has(.xoo-ml-inline-verify) .xoo-el-edit-em {
+    display: none;
+}
+
+.xoo-el-block-edit input.xoo-ml-phone-input, .xoo-el-block-edit input.xoo-ml-otp-input{
+    opacity: 1;
+    pointer-events: all;
+}
+
+form.xoo-ml-otp-form[style="display: block;"] + .xoo-sl-container {
+    display: none;
+}
+
+.xoo-ml-inlinver-cont {
+    position: relative;
+    width: 100%;
+}
+
+.xoo-aff-group select.xoo-ml-phone-cc + .select2.select2-container {
+    min-width: 1px;
+}
+
+.xoo-el-form-container .xoo-ml-phinput-cont, .xoo-el-form-container .xoo-el-sing-fields[data-active="phone"] .xoo-ml-phinput-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.xoo-el-form-container .xoo-ml-phinput-cont[style="display: block;"]{
+    display: flex!important;
+}
+
+form.xoo-el-action-form:has(.xoo-ml-inline-otp-cont[style="display: block;"]) .xoo-aff-cont-phone_code, form.xoo-el-action-form:has(.xoo-ml-inline-otp-cont + .xoo-ml-notice[style="display: block;"]) .xoo-aff-cont-phone_code {
+    align-self: flex-start;
+}
+
+.xoo-aff-select2-dropdown {
+    min-width: 140px;
+}
+
+.xoo-el-form-container .xoo-ml-otp-notice-cont {
+    height: auto;
+    margin-bottom: 22px;
+}
+
+/* Merged CC */
+
+.xoo-ml-merged-cc select + .select2, .xoo-ml-merged-cc .xoo-aff-cont-tel input[type="tel"]{
+    border: 0;
+}
+
+.xoo-ml-merged-cc .xoo-aff-group {
+    margin: 0;
+    width: auto;
+}
+
+.xoo-ml-merged-cc {
+    display: flex;
+    width: calc(100% - 20px);
+    margin-right: 20px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.xoo-ml-merged-cc-cont {
+    display: flex;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.xoo-ml-merged-cc input[type="tel"]:focus{
+    outline-color: transparent;
+}
+
+.xoo-ml-merged-cc .xoo-aff-cont-tel {
+    flex-grow: 1;
+}
+
+.xoo-ml-merged-cc .xoo-aff-group select + .select2 {
+    border-radius: 0;
+}
+
+.xoo-ml-merged-cc select.xoo-ml-phone-cc + .select2.select2-container {
+    padding: 0;
+}
+
+.xoo-ml-merged-cc span.select2-selection__arrow {
+    display: none;
+}
+
+.xoo-ml-merged-cc .xoo-ml-phone-cc + .select2 .select2-selection.select2-selection--single {
+    padding-right: 5px;
+    background-image: none;
+}
+
+
+/*.xoo-ml-merged-cc-cont + .xoo-ml-inline-otp-cont[style="display: none;"] + .xoo-ml-notice {
+    margin-top: 10px;
+}*/
+
+.xoo-ml-merged-cc.onehalf {
+    min-width: calc(50% - 20px);
+    width: auto;
+    flex-grow: 1;
+}
+
+.xoo-ml-merged-cc .xoo-aff-input-group .xoo-aff-input-icon {
+    margin-top: -1px;
+    margin-bottom: -1px;
+    margin-left: -1px;
+}
+
+body:not(.rtl) .xoo-ml-merged-cc-cont:has(.xoo-aff-input-group) {
+    border-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+body.rtl .xoo-ml-merged-cc-cont:has(.xoo-aff-conte-tel .xoo-aff-input-group) {
+    border-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.xoo-ml-merged-cc .xoo-aff-cont-tel input[type="tel"] {
+    padding-left: 4px;
+}
+
+.xoo-ml-merged-cc.onehalf + .onehalf {
+    align-self: flex-start;
+    flex-grow: 1;
+}
+
+
+.xoo-ml-merged-cc input:-webkit-autofill,
+.xoo-ml-merged-cc input:-webkit-autofill:active,.xoo-ml-merged-cc input:-webkit-autofill:focus{
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-background-clip: text;
+}
+
+
+xoo-ml-merged-cc:has(.xoo-ml-inline-otp-cont[style="display: block;"]) {
+    width: 100%;
+}
+
+
+.xoo-ml-noel-mergedcc span.select2-selection {
+    border: 0;
+}
+
+.xoo-ml-noel-mergedcc span.select2.select2-container {
+    margin-right: 0;
+}
+
+.xoo-aff-group .xoo-ml-notice {
+    margin-bottom: -10px;
+    margin-top: 18px;
+}
+
+.xoo-aff-group ~ .xoo-ml-notice {
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+
+
+.xoo-el-form-container .xoo-ml-inline-otp-cont {
+    margin-top: 0;
+    width: calc(100% - 20px);
+    margin-bottom: 20px;
+}
+
+.xoo-el-form-container .xoo-ml-merged-cc .xoo-ml-inline-otp-cont {
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+
+body:not(.rtl) .xoo-ml-merged-cc:has(.xoo-aff-input-icon) input[type="tel"] {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+
+/* RTL */
+body.rtl .xoo-ml-otp-input-cont, body.rtl .xoo-ml-otp-sent-txt, body.rtl .xoo-ml-phinput-cont, body.rtl input[name="xoo-ml-reg-phone"], body.rtl .xoo-ml-reg-phone-cc_cont {
+    direction: ltr;
+}
+
+
+body.rtl .xoo-ml-flag-cont span:nth-child(1) {
+    margin-left: 10px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+body.rtl .xoo-aff-input-icon ~ span.xoo-ml-reg-phone-change, body.rtl .xoo-aff-input-icon ~ span.xoo-ml-inline-verify, body.rtl .xoo-aff-input-icon ~ span.xoo-ml-otp-submit-btn {
+    right: 50px;
+}
+
+body.rtl .xoo-aff-group select.xoo-ml-phone-cc + .select2.select2-container {
+    margin-left: 0;
+}
+
+body.rtl .xoo-ml-reg-phone_cont, body.rtl .xoo-ml-reg-phone-cc_cont {
+    float: left;
+}
+
+body.rtl .xoo-ml-merged-cc {
+    direction: ltr;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+body.rtl .xoo-ml-merged-cc .xoo-aff-group {
+    margin: 0;
+}
